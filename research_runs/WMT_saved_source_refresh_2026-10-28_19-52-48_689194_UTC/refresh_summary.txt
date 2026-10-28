@@ -1,0 +1,8 @@
+Step 1: Reused saved ticker and CIK.
+Step 2: Reused saved selected filings and Accepted times.
+Step 3: Copied saved filing texts and source HTML; no downloads.
+Step 4: Recomputed annual facts from saved HTML and raw XBRL.
+Step 5: Recomputed calculations; P/E unavailable without instructor price.
+Step 6: Reprocessed saved release HTML; extraction unchanged.
+Step 7: Recomputed peer facts and calculations.
+BJ debt/equity unavailable: filing labels tagged current amounts short-term debt; comparable current long-term portion is not established. Missing is not zero.

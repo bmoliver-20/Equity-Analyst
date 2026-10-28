@@ -1,0 +1,50 @@
+{
+  "mode": "offline refresh from saved sources; not a current SEC retrieval",
+  "source_folder": "/Users/brodyman20/FIN67110/research_runs/COSTCO_WHOLESALE_CORP_NEW_2026-10-28_19-22-32_324246_UTC",
+  "refreshed_utc": "2026-10-28_19-52-46_526073_UTC",
+  "network_requests": 0,
+  "price": null,
+  "missing_selected_facts": [
+    {
+      "ticker": "BJ",
+      "concept": "current_debt",
+      "period": "current"
+    },
+    {
+      "ticker": "BJ",
+      "concept": "current_debt",
+      "period": "prior"
+    }
+  ],
+  "source_hashes": {
+    "annual_revenue_source_104169.html": "de465114e777d0c31b8b3917b17602a805044bf23a1fbfebd039e0941c829037",
+    "peer_1531152_companyfacts_raw.json": "162ffbf27542c18141c78d246bd6df29bb36da451b9f4770ae6bac5b738f01c2",
+    "peer_27419_companyfacts_raw.json": "241c309f1c0edeafb74a722f89bae84fb95d217c4596a7b56f121093c449dbaf",
+    "10-Q.txt": "f432425a8f1154d868268285f36c64132ed397810cac3cc46311b370c61b8329",
+    "annual_debt_evidence_909832.json": "9e7f4f8cc3083f8c2aebfeeb0828b1d083316fbca62053d76d81f20eccde2812",
+    "annual_revenue_source_27419.html": "32885836f39d5902ae36d4f5c9353761fe762c4ff5be162f530ff048ad08dedf",
+    "annual_revenue_evidence_104169.json": "e727e62275c8cc0381c7db192d97572384eb38d78ddfe499b1d1cc756790537c",
+    "company.json": "07c34d8b34106750ea0373a0e3d1a1c9e886f3b8a219e5962c490d5579236b7a",
+    "calculations.json": "eab27032501d36726198b7b8c154f70565f60ee7723524f05011db42e71ef00b",
+    "peer_104169_companyfacts_raw.json": "f600e885ea8292ea3126f77da566c9bc50c5df2eb8f41f505d59176b70de8a26",
+    "companyfacts_raw.json": "d8beb202e79f17049c1a418a7dcff27d76cbd0ef1df780b984e459c6a333d0e1",
+    "filings.json": "377a9ec770b70daa7589558487489101da4016565801b48798dd133954a67290",
+    "annual_debt_evidence_27419.json": "df2c39fa02c713ece0d32e373cc664f63a2c021fc9b85d522a0185f21fdfa557",
+    "annual_revenue_evidence_27419.json": "001d491e40c250ec9afb334aa2b184a5625a54becd6e92a27dc5aacd9f90da00",
+    "facts.json": "94efb4e007ab970a42a5b9ca5cd3a2278b2e81393a0a956d35ea9ef0c06a90aa",
+    "annual_revenue_source_909832.html": "14d79127b60b1daa2f72028750cc81b05120878809910721c505ad62c6237532",
+    "release_lines.json": "73007c866fe69d1e116c2f9587b0ca67afd623c584db78d0fbb969d7b459a298",
+    "10-K.txt": "92d4c83684c60e37e6ef6dd2a0c1d7716578435d6e5fbcbff8312d0456d8cd20",
+    "earnings_release_99_1.txt": "cd0120a9d69230c4a534dbc27877cfcb9d06553185c7e7f94508733edb8c9d26",
+    "annual_revenue_source_1531152.html": "d42e4067cff28982b216a9ff2fb56037dab8ddb06cc083ac70ebdae8299c3ecb",
+    "8-K.txt": "2c589af82401aeb45ed1782cf62f947fa69e55ff7ff400879d82d82d714ad5c9",
+    "annual_debt_evidence_1531152.json": "b88dba80c2d58aaed02bbc5888f7ee022a3260a1811ad8478386ca8148211e4a",
+    "peers.json": "3a505c9646bfd75aad09b55c99e21a745a6edeed6a4abab9a62af3567fbc3b0c",
+    "annual_revenue_evidence_1531152.json": "6026fff0b6497c44b2ce712ad98fe791d416af56c27ccd8427b3c4a27aa89bb2",
+    "annual_revenue_evidence_909832.json": "21f772fca1cba60f3fb7f4d10666bb50fc9ad41734ee9f455edb3a5e1d3ab52e",
+    "earnings_release_99_1.html": "41c0eb289fea5e1fe606dc2153fc10c25f5c2f0ab1ef789e85a683eaf6f59183",
+    "annual_debt_evidence_104169.json": "f326b25d09ad884066bd366c4fd7d6426c1668f62ca0de9da45f07f364b1a37f"
+  },
+  "verification_status": null,
+  "partner_sign_off": null
+}

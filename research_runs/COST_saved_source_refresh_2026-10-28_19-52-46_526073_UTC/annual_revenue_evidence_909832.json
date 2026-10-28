@@ -1,0 +1,80 @@
+[
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2025-09-01",
+    "end": "2026-08-30",
+    "val": 303154000000,
+    "unit": "USD",
+    "accn": "0000909832-26-000093",
+    "context_id": "c-1",
+    "filing_label": "Total revenue",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+    "source_row": "Total revenue | 303,154 |  |  | 275,235 |  |  | 254,453 | "
+  },
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2024-09-02",
+    "end": "2025-08-31",
+    "val": 275235000000,
+    "unit": "USD",
+    "accn": "0000909832-26-000093",
+    "context_id": "c-10",
+    "filing_label": "Total revenue",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+    "source_row": "Total revenue | 303,154 |  |  | 275,235 |  |  | 254,453 | "
+  },
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2023-09-04",
+    "end": "2024-09-01",
+    "val": 254453000000,
+    "unit": "USD",
+    "accn": "0000909832-26-000093",
+    "context_id": "c-11",
+    "filing_label": "Total revenue",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+    "source_row": "Total revenue | 303,154 |  |  | 275,235 |  |  | 254,453 | "
+  },
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2025-09-01",
+    "end": "2026-08-30",
+    "val": 303154000000,
+    "unit": "USD",
+    "accn": "0000909832-26-000093",
+    "context_id": "c-1",
+    "filing_label": "Total revenue",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+    "source_row": "Total revenue | $ | 303,154 |  |  | $ | 275,235 |  |  | $ | 254,453 | "
+  },
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2024-09-02",
+    "end": "2025-08-31",
+    "val": 275235000000,
+    "unit": "USD",
+    "accn": "0000909832-26-000093",
+    "context_id": "c-10",
+    "filing_label": "Total revenue",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+    "source_row": "Total revenue | $ | 303,154 |  |  | $ | 275,235 |  |  | $ | 254,453 | "
+  },
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2023-09-04",
+    "end": "2024-09-01",
+    "val": 254453000000,
+    "unit": "USD",
+    "accn": "0000909832-26-000093",
+    "context_id": "c-11",
+    "filing_label": "Total revenue",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm",
+    "source_row": "Total revenue | $ | 303,154 |  |  | $ | 275,235 |  |  | $ | 254,453 | "
+  }
+]

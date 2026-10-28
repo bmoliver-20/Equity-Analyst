@@ -1,0 +1,198 @@
+{
+  "revenue": [
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+      "basis": "reported, not calculated",
+      "units_source": "(Amounts in millions, except per share data)",
+      "statement_title": "Condensed Consolidated Statements of Income",
+      "header_lines": [
+        " |  | Three Months Ended |  | Six Months Ended",
+        " |  | July 31, |  | July 31,",
+        "(Amounts in millions, except per share data) |  | 2026 |  | 2025 |  | Percent Change |  | 2026 |  | 2025 |  | Percent Change"
+      ],
+      "section_line": null,
+      "source_line": "Total revenues |  | 187,937 |  |  | 177,402 |  |  | 5.9 | % |  | 365,688 |  |  | 343,011 |  |  | 6.6 | %",
+      "values": [
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "187,937",
+          "duration": "Three Months Ended",
+          "period_end": "2026-07-31",
+          "period_end_display": "July 31, 2026",
+          "period_kind": "quarter",
+          "comparison": "current quarter"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "177,402",
+          "duration": "Three Months Ended",
+          "period_end": "2025-07-31",
+          "period_end_display": "July 31, 2025",
+          "period_kind": "quarter",
+          "comparison": "comparative quarter"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "365,688",
+          "duration": "Six Months Ended",
+          "period_end": "2026-07-31",
+          "period_end_display": "July 31, 2026",
+          "period_kind": "year-to-date",
+          "comparison": "year-to-date"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "343,011",
+          "duration": "Six Months Ended",
+          "period_end": "2025-07-31",
+          "period_end_display": "July 31, 2025",
+          "period_kind": "year-to-date",
+          "comparison": "year-to-date"
+        }
+      ]
+    }
+  ],
+  "diluted_eps": [
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+      "basis": "reported, not calculated",
+      "units_source": "(Amounts in millions, except per share data)",
+      "statement_title": "Condensed Consolidated Statements of Income",
+      "header_lines": [
+        " |  | Three Months Ended |  | Six Months Ended",
+        " |  | July 31, |  | July 31,",
+        "(Amounts in millions, except per share data) |  | 2026 |  | 2025 |  | Percent Change |  | 2026 |  | 2025 |  | Percent Change"
+      ],
+      "section_line": "Net income per common share:",
+      "source_line": "Diluted net income per common share attributable to Walmart |  | 0.80 |  |  | 0.88 |  |  | (9.1 | %) |  | 1.46 |  |  | 1.43 |  |  | 2.1 | %",
+      "values": [
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "0.80",
+          "duration": "Three Months Ended",
+          "period_end": "2026-07-31",
+          "period_end_display": "July 31, 2026",
+          "period_kind": "quarter",
+          "comparison": "current quarter"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "0.88",
+          "duration": "Three Months Ended",
+          "period_end": "2025-07-31",
+          "period_end_display": "July 31, 2025",
+          "period_kind": "quarter",
+          "comparison": "comparative quarter"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "1.46",
+          "duration": "Six Months Ended",
+          "period_end": "2026-07-31",
+          "period_end_display": "July 31, 2026",
+          "period_kind": "year-to-date",
+          "comparison": "year-to-date"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "1.43",
+          "duration": "Six Months Ended",
+          "period_end": "2025-07-31",
+          "period_end_display": "July 31, 2025",
+          "period_kind": "year-to-date",
+          "comparison": "year-to-date"
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+      "basis": "reported, not calculated",
+      "units_source": "Per share; currency symbol as printed in source row",
+      "statement_title": null,
+      "header_lines": [
+        " |  | Three Months Ended July 31, 2026 1"
+      ],
+      "section_line": "Diluted earnings per share:",
+      "source_line": "Reported EPS |  |  |  |  |  |  |  | $0.80",
+      "values": [
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "$0.80",
+          "duration": "Three Months Ended",
+          "period_end": "2026-07-31",
+          "period_end_display": "July 31, 2026",
+          "period_kind": "quarter",
+          "comparison": "current quarter"
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+      "basis": "reported, not calculated",
+      "units_source": "Per share; currency symbol as printed in source row",
+      "statement_title": null,
+      "header_lines": [
+        " |  | Three Months Ended July 31, 2026 1",
+        "Adjustments: |  | Pre-Tax Impact |  | Tax Impact 2 |  | NCI Impact |  | Net Impact"
+      ],
+      "section_line": "Diluted earnings per share:",
+      "source_line": "Adjusted EPS |  |  |  |  |  |  |  | $0.81",
+      "values": [
+        {
+          "accounting_basis": "adjusted (non-GAAP)",
+          "value": "$0.81",
+          "duration": "Three Months Ended",
+          "period_end": "2026-07-31",
+          "period_end_display": "July 31, 2026",
+          "period_kind": "quarter",
+          "comparison": "current quarter"
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+      "basis": "reported, not calculated",
+      "units_source": "Per share; currency symbol as printed in source row",
+      "statement_title": null,
+      "header_lines": [
+        " |  | Three Months Ended July 31, 2025 1"
+      ],
+      "section_line": "Diluted earnings per share:",
+      "source_line": "Reported EPS |  |  |  |  |  |  |  | $0.88",
+      "values": [
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "$0.88",
+          "duration": "Three Months Ended",
+          "period_end": "2025-07-31",
+          "period_end_display": "July 31, 2025",
+          "period_kind": "quarter",
+          "comparison": "comparative quarter"
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+      "basis": "reported, not calculated",
+      "units_source": "Per share; currency symbol as printed in source row",
+      "statement_title": null,
+      "header_lines": [
+        " |  | Three Months Ended July 31, 2025 1",
+        "Adjustments: |  | Pre-Tax Impact |  | Tax Impact 2 |  | NCI Impact |  | Net Impact"
+      ],
+      "section_line": "Diluted earnings per share:",
+      "source_line": "Adjusted EPS |  |  |  |  |  |  |  | $0.68",
+      "values": [
+        {
+          "accounting_basis": "adjusted (non-GAAP)",
+          "value": "$0.68",
+          "duration": "Three Months Ended",
+          "period_end": "2025-07-31",
+          "period_end_display": "July 31, 2025",
+          "period_kind": "quarter",
+          "comparison": "comparative quarter"
+        }
+      ]
+    }
+  ]
+}
