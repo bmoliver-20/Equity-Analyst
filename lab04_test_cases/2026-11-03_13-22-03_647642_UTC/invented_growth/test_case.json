@@ -1,0 +1,9 @@
+{
+  "test": "invented_growth",
+  "source_report": "/Users/brodyman20/FIN67110/research_runs/COSTCO_WHOLESALE_CORP_NEW_2026-11-02_15-14-58_161484_UTC/COST_fallback_report.md",
+  "original_sha256": "fbbd2ade7d9d386913b18f2a51315f06c49efc66f81dbf1cc33f3ea446b9d60f",
+  "model_verification_performed": false,
+  "human_audits_modified": false,
+  "correct_growth_percent": "10.14369538757788798662960743",
+  "seeded_growth_percent": "14.1437"
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "tag": "us-gaap:Revenues",
+    "start": "2025-02-01",
+    "end": "2026-01-31",
+    "val": 713163000000,
+    "unit": "USD",
+    "accn": "0000104169-26-000055",
+    "context_id": "c-1",
+    "filing_label": "Total revenues",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+    "source_row": "Total revenues |  | 713,163 |  |  | 680,985 |  |  | 648,125 | "
+  },
+  {
+    "tag": "us-gaap:Revenues",
+    "start": "2024-02-01",
+    "end": "2025-01-31",
+    "val": 680985000000,
+    "unit": "USD",
+    "accn": "0000104169-26-000055",
+    "context_id": "c-14",
+    "filing_label": "Total revenues",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+    "source_row": "Total revenues |  | 713,163 |  |  | 680,985 |  |  | 648,125 | "
+  },
+  {
+    "tag": "us-gaap:Revenues",
+    "start": "2023-02-01",
+    "end": "2024-01-31",
+    "val": 648125000000,
+    "unit": "USD",
+    "accn": "0000104169-26-000055",
+    "context_id": "c-15",
+    "filing_label": "Total revenues",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+    "source_row": "Total revenues |  | 713,163 |  |  | 680,985 |  |  | 648,125 | "
+  },
+  {
+    "tag": "us-gaap:Revenues",
+    "start": "2025-02-01",
+    "end": "2026-01-31",
+    "val": 713163000000,
+    "unit": "USD",
+    "accn": "0000104169-26-000055",
+    "context_id": "c-1",
+    "filing_label": "Total revenues",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+    "source_row": "Total revenues |  | 713,163 |  |  | 680,985 |  |  | 648,125 |  |  |  | "
+  },
+  {
+    "tag": "us-gaap:Revenues",
+    "start": "2024-02-01",
+    "end": "2025-01-31",
+    "val": 680985000000,
+    "unit": "USD",
+    "accn": "0000104169-26-000055",
+    "context_id": "c-14",
+    "filing_label": "Total revenues",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+    "source_row": "Total revenues |  | 713,163 |  |  | 680,985 |  |  | 648,125 |  |  |  | "
+  },
+  {
+    "tag": "us-gaap:Revenues",
+    "start": "2023-02-01",
+    "end": "2024-01-31",
+    "val": 648125000000,
+    "unit": "USD",
+    "accn": "0000104169-26-000055",
+    "context_id": "c-15",
+    "filing_label": "Total revenues",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm",
+    "source_row": "Total revenues |  | 713,163 |  |  | 680,985 |  |  | 648,125 |  |  |  | "
+  }
+]

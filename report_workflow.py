@@ -96,9 +96,9 @@ def schema_check(value, schema, path='response'):
 
 
 class ModelCallError(ReportError):
-    """Only allowlisted metadata; never retain provider text or response bodies."""
+    """Only sanitized diagnostics; never retain raw responses or headers."""
     def __init__(self, role, category, code=None):
-        self.details = {'role': role if role in ROLES else 'unknown', 'category': category}
+        self.details = {'role': role if role in [*ROLES, 'Verifier'] else 'unknown', 'category': category}
         if type(code) is int and 100 <= code <= 599:
             self.details['http_status'] = code
         super().__init__(f"{self.details['role']}: {category}" +
@@ -106,7 +106,72 @@ class ModelCallError(ReportError):
                          '; no report was compiled.')
 
 
-def classify_api_error(role, error):
+def sanitize_provider_text(value, secrets=()):
+    if not isinstance(value, str):return None
+    # Redact the known key in memory, without reading environment files here.
+    from urllib.parse import quote
+    for secret in secrets:
+        if secret:
+            value=value.replace(secret,'[redacted]').replace(quote(secret,safe=''),'[redacted]')
+    value=re.split(r'(?i)\b(?:request\s*(?:headers|body|payload)|headers)\s*[:=]',value)[0]
+    value=re.sub(r'(?im)^.*\b(?:authorization|x-goog-api-key|cookie)\s*:.*$','[header omitted]',value)
+    value=re.sub(r'https?://\S+','[URL omitted]',value)
+    value=re.sub(r'(?i)\bBearer\s+\S+','Bearer [redacted]',value)
+    value=re.sub(r'''(?ix)["']?(?:api[_ -]?key|x-goog-api-key|authorization|password|access[_ -]?token|cookie|secret)["']?\s*[:=]\s*(?:"[^"]*"|'[^']*'|[^\s,;}]+)''','[credential omitted]',value)
+    value=re.sub(r'\bAIza[\w-]+\b|\b[A-Za-z0-9_+/=-]{24,}\b|\b[A-Z][A-Z0-9_]*_[A-Z0-9_]+\b','[redacted]',value)
+    return ' '.join(value.split())[:1200]
+
+
+def provider_diagnostics(error, secrets=()):
+    """Read only named provider-error fields and the response Retry-After value."""
+    result={}
+    message=sanitize_provider_text(getattr(error,'message',None),secrets)
+    if message:result['message']=message
+    details=getattr(error,'details',None)
+    body=details.get('error',details) if isinstance(details,dict) else {}
+    entries=body.get('details',[]) if isinstance(body,dict) else []
+    quotas=[]
+    def delay(value):
+        if isinstance(value,dict):
+            seconds=value.get('seconds',0);nanos=value.get('nanos',0)
+            if re.fullmatch(r'\d+',str(seconds)) and re.fullmatch(r'\d+',str(nanos)) and int(nanos)<10**9:
+                return str(Decimal(str(seconds))+Decimal(str(nanos))/10**9)+'s'
+        if isinstance(value,(str,int,float)) and re.fullmatch(r'\d+(?:\.\d+)?s?',str(value)):
+            return str(value).rstrip('s')+'s'
+        return None
+    for entry in entries if isinstance(entries,list) else []:
+        if not isinstance(entry,dict):continue
+        violations=entry.get('violations',[])
+        for row in violations if isinstance(violations,list) else []:
+            if not isinstance(row,dict):continue
+            safe={}
+            for src,dest in [('quotaMetric','quota_metric'),('quotaId','quota_limit'),('quotaLimit','quota_limit')]:
+                value=row.get(src)
+                # Quota IDs are structured identifiers, not free-form provider text.
+                if isinstance(value,str) and re.fullmatch(r'[A-Za-z][A-Za-z0-9_./-]{0,240}',value) and not any(s and s in value for s in secrets) and not value.startswith('AIza'):
+                    safe[dest]=value
+            value=row.get('quotaValue')
+            if isinstance(value,(str,int,float)) and re.fullmatch(r'\d+(?:\.\d+)?',str(value)):safe['quota_value']=str(value)
+            if safe:quotas.append(safe)
+        retry=delay(entry.get('retryDelay'))
+        if retry:result['retry_delay']=retry
+    if quotas:result['quota_violations']=quotas
+    if 'retry_delay' not in result:
+        # Only a response delay field is inspected. No header collection is copied.
+        response=getattr(error,'response',None)
+        headers=getattr(response,'headers',None)
+        retry=delay(headers.get('retry-after')) if headers is not None else None
+        if retry:result['retry_delay']=retry
+        elif headers is not None:
+            from email.utils import parsedate_to_datetime
+            value=headers.get('retry-after')
+            if isinstance(value,str):
+                try:result['retry_at']=parsedate_to_datetime(value).isoformat()
+                except (ValueError,TypeError,OverflowError):pass
+    return result
+
+
+def classify_api_error(role, error, secrets=()):
     import httpx
     from google.genai.errors import APIError
     code = error.code if isinstance(error, APIError) else None
@@ -131,7 +196,9 @@ def classify_api_error(role, error):
             category = 'authentication'
     else:
         category = 'sdk_or_local_error'
-    return ModelCallError(role, category, code)
+    result=ModelCallError(role, category, code)
+    if isinstance(error,APIError):result.details.update(provider_diagnostics(error,secrets))
+    return result
 
 
 class GeminiModel:
@@ -156,17 +223,23 @@ class GeminiModel:
             raise ReportError('Install requirements-equity.txt to use the official Google Gen AI SDK.') from None
         except Exception:
             raise ReportError('Could not initialize the Gemini client; credentials were not logged.') from None
-        return cls(client, model)
+        adapter=cls(client, model)
+        adapter._redactions=(key,)
+        return adapter
 
     def generate(self, role, packet):
+        return self.generate_structured(role, packet, INSTRUCTIONS[role], SCHEMAS[role])
+
+    def generate_structured(self, role, packet, instructions, schema):
+        """Reuse the private client and sanitized errors for file-based role tasks."""
         try:
             response = self.client.models.generate_content(
                 model=self.model, contents=json.dumps(packet, ensure_ascii=False),
-                config={'system_instruction': INSTRUCTIONS[role], 'response_mime_type': 'application/json',
-                        'response_json_schema': SCHEMAS[role], 'temperature': 0,
+                config={'system_instruction': instructions, 'response_mime_type': 'application/json',
+                        'response_json_schema': schema, 'temperature': 0,
                         'automatic_function_calling': {'disable': True}})
         except Exception as error:
-            raise classify_api_error(role, error) from None
+            raise classify_api_error(role, error, getattr(self,'_redactions',())) from None
         try:
             raw = response.text
         except Exception:
@@ -177,7 +250,7 @@ class GeminiModel:
             output = json.loads(raw)
         except (ValueError, TypeError):
             raise ModelCallError(role, 'json_parse_error') from None
-        if schema_check(output, SCHEMAS[role]):
+        if schema_check(output, schema):
             raise ModelCallError(role, 'schema_validation_error') from None
         return output
 

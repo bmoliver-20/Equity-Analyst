@@ -1,0 +1,9 @@
+{
+  "test": "clean_report",
+  "source_report": "/Users/brodyman20/FIN67110/research_runs/MICROSOFT_CORP_2026-11-03_06-03-42_020772_UTC/MSFT_fallback_report.md",
+  "original_sha256": "ad3aee7dd99fd59fc36c3b098d3d9a3ffbefa831f5e38205dd9d3c1de525a98a",
+  "model_verification_performed": false,
+  "human_audits_modified": false,
+  "human_core_marks_source": "/Users/brodyman20/FIN67110/research_runs/MICROSOFT_CORP_2026-11-03_06-03-42_020772_UTC/MSFT_fallback_audit.md",
+  "scope": "Eleven core claims reviewed by human; supplemental claims are NOT certified clean."
+}

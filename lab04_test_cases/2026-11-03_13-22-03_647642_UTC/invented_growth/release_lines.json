@@ -1,0 +1,106 @@
+{
+  "revenue": [
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+      "basis": "reported, not calculated",
+      "units_source": "(dollars in millions, except per share data) (unaudited)",
+      "statement_title": "CONSOLIDATED STATEMENTS OF INCOME",
+      "header_lines": [
+        " | 16 Weeks Ended |  | 52 Weeks Ended",
+        " | August 30, 2026 |  | August 31, 2025 |  | August 30, 2026 |  | August 31, 2025"
+      ],
+      "section_line": null,
+      "source_line": "Total revenue | 95,723 |  |  | 86,156 |  |  | 303,154 |  |  | 275,235 | ",
+      "values": [
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "95,723",
+          "duration": "16 Weeks Ended",
+          "period_end": "2026-08-30",
+          "period_end_display": "August 30, 2026",
+          "period_kind": "quarter",
+          "comparison": "current quarter"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "86,156",
+          "duration": "16 Weeks Ended",
+          "period_end": "2025-08-31",
+          "period_end_display": "August 31, 2025",
+          "period_kind": "quarter",
+          "comparison": "comparative quarter"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "303,154",
+          "duration": "52 Weeks Ended",
+          "period_end": "2026-08-30",
+          "period_end_display": "August 30, 2026",
+          "period_kind": "annual",
+          "comparison": "annual"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "275,235",
+          "duration": "52 Weeks Ended",
+          "period_end": "2025-08-31",
+          "period_end_display": "August 31, 2025",
+          "period_kind": "annual",
+          "comparison": "annual"
+        }
+      ]
+    }
+  ],
+  "diluted_eps": [
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000084/costex9918-k92426.htm",
+      "basis": "reported, not calculated",
+      "units_source": "(dollars in millions, except per share data) (unaudited)",
+      "statement_title": "CONSOLIDATED STATEMENTS OF INCOME",
+      "header_lines": [
+        " | 16 Weeks Ended |  | 52 Weeks Ended",
+        " | August 30, 2026 |  | August 31, 2025 |  | August 30, 2026 |  | August 31, 2025"
+      ],
+      "section_line": "NET INCOME PER COMMON SHARE:",
+      "source_line": "Diluted | $ | 6.75 |  |  | $ | 5.87 |  |  | $ | 20.76 |  |  | $ | 18.21 | ",
+      "values": [
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "6.75",
+          "duration": "16 Weeks Ended",
+          "period_end": "2026-08-30",
+          "period_end_display": "August 30, 2026",
+          "period_kind": "quarter",
+          "comparison": "current quarter"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "5.87",
+          "duration": "16 Weeks Ended",
+          "period_end": "2025-08-31",
+          "period_end_display": "August 31, 2025",
+          "period_kind": "quarter",
+          "comparison": "comparative quarter"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "20.76",
+          "duration": "52 Weeks Ended",
+          "period_end": "2026-08-30",
+          "period_end_display": "August 30, 2026",
+          "period_kind": "annual",
+          "comparison": "annual"
+        },
+        {
+          "accounting_basis": "GAAP (reported)",
+          "value": "18.21",
+          "duration": "52 Weeks Ended",
+          "period_end": "2025-08-31",
+          "period_end_display": "August 31, 2025",
+          "period_kind": "annual",
+          "comparison": "annual"
+        }
+      ]
+    }
+  ]
+}

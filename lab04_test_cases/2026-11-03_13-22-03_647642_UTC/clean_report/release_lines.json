@@ -1,0 +1,103 @@
+{
+  "revenue": [
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
+      "basis": "reported, not calculated",
+      "units_source": null,
+      "statement_title": null,
+      "header_lines": [
+        " |  | Three Months Ended September 30,",
+        " |  | 2026 |  | 2025"
+      ],
+      "section_line": null,
+      "source_line": "Total revenue |  | 92,279 |  | 77,673",
+      "values": [
+        {
+          "accounting_basis": "reported (adjustment status not specified)",
+          "value": "92,279",
+          "duration": "Three Months Ended",
+          "period_end": "2026-09-30",
+          "period_end_display": "September 30, 2026",
+          "period_kind": "quarter",
+          "comparison": "current quarter"
+        },
+        {
+          "accounting_basis": "reported (adjustment status not specified)",
+          "value": "77,673",
+          "duration": "Three Months Ended",
+          "period_end": "2025-09-30",
+          "period_end_display": "September 30, 2025",
+          "period_kind": "quarter",
+          "comparison": "comparative quarter"
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
+      "basis": "reported, not calculated",
+      "units_source": null,
+      "statement_title": null,
+      "header_lines": [
+        " |  | Three Months Ended",
+        " |  | September 30,",
+        " |  | 2026 |  | 2025"
+      ],
+      "section_line": null,
+      "source_line": "Total revenue |  | $92,279 |  | $77,673",
+      "values": [
+        {
+          "accounting_basis": "reported (adjustment status not specified)",
+          "value": "$92,279",
+          "duration": "Three Months Ended",
+          "period_end": "2026-09-30",
+          "period_end_display": "September 30, 2026",
+          "period_kind": "quarter",
+          "comparison": "current quarter"
+        },
+        {
+          "accounting_basis": "reported (adjustment status not specified)",
+          "value": "$77,673",
+          "duration": "Three Months Ended",
+          "period_end": "2025-09-30",
+          "period_end_display": "September 30, 2025",
+          "period_kind": "quarter",
+          "comparison": "comparative quarter"
+        }
+      ]
+    }
+  ],
+  "diluted_eps": [
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
+      "basis": "reported, not calculated",
+      "units_source": "Per share; currency symbol as printed in source row",
+      "statement_title": null,
+      "header_lines": [
+        " |  | Three Months Ended September 30,",
+        " |  | 2026 |  | 2025"
+      ],
+      "section_line": "Earnings per share:",
+      "source_line": "Diluted |  | $4.92 |  | $3.72",
+      "values": [
+        {
+          "accounting_basis": "reported (adjustment status not specified)",
+          "value": "$4.92",
+          "duration": "Three Months Ended",
+          "period_end": "2026-09-30",
+          "period_end_display": "September 30, 2026",
+          "period_kind": "quarter",
+          "comparison": "current quarter"
+        },
+        {
+          "accounting_basis": "reported (adjustment status not specified)",
+          "value": "$3.72",
+          "duration": "Three Months Ended",
+          "period_end": "2025-09-30",
+          "period_end_display": "September 30, 2025",
+          "period_kind": "quarter",
+          "comparison": "comparative quarter"
+        }
+      ]
+    }
+  ]
+}

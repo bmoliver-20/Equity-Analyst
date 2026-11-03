@@ -1,0 +1,11 @@
+{
+  "test": "eps_error",
+  "source_report": "/Users/brodyman20/FIN67110/research_runs/COSTCO_WHOLESALE_CORP_NEW_2026-11-02_15-14-58_161484_UTC/COST_fallback_report.md",
+  "original_sha256": "fbbd2ade7d9d386913b18f2a51315f06c49efc66f81dbf1cc33f3ea446b9d60f",
+  "model_verification_performed": false,
+  "human_audits_modified": false,
+  "correct_eps": "20.76",
+  "seeded_eps": "21.76",
+  "real_source_line": 394,
+  "real_source_quote": "• Net income increased 14% to $9,226, $20.76 per diluted share, compared to $8,099, $18.21 per diluted share in 2025; and"
+}

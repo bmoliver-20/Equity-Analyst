@@ -1,0 +1,41 @@
+[
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2025-02-02",
+    "end": "2026-01-31",
+    "val": 104780000000,
+    "unit": "USD",
+    "accn": "0000027419-26-000016",
+    "context_id": "c-1",
+    "filing_label": "Net sales",
+    "definition": "Net Sales includes Merchandise Sales and revenues from other sources, most notably advertising revenue and credit card profit-sharing income. Note 2 to the Financial Statements provides more information.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+    "source_row": "Net sales | $ | 104,780 |  | $ | 106,566 |  | $ | 107,412 | "
+  },
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2024-02-04",
+    "end": "2025-02-01",
+    "val": 106566000000,
+    "unit": "USD",
+    "accn": "0000027419-26-000016",
+    "context_id": "c-4",
+    "filing_label": "Net sales",
+    "definition": "Net Sales includes Merchandise Sales and revenues from other sources, most notably advertising revenue and credit card profit-sharing income. Note 2 to the Financial Statements provides more information.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+    "source_row": "Net sales | $ | 104,780 |  | $ | 106,566 |  | $ | 107,412 | "
+  },
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2023-01-29",
+    "end": "2024-02-03",
+    "val": 107412000000,
+    "unit": "USD",
+    "accn": "0000027419-26-000016",
+    "context_id": "c-5",
+    "filing_label": "Net sales",
+    "definition": "Net Sales includes Merchandise Sales and revenues from other sources, most notably advertising revenue and credit card profit-sharing income. Note 2 to the Financial Statements provides more information.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+    "source_row": "Net sales | $ | 104,780 |  | $ | 106,566 |  | $ | 107,412 | "
+  }
+]

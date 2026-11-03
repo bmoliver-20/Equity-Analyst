@@ -1,0 +1,93 @@
+[
+  {
+    "tag": "us-gaap:FinanceLeaseLiabilityCurrent",
+    "val": 620000000,
+    "end": "2026-05-31",
+    "unit": "USD",
+    "accn": "0001193125-26-277521",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "source_label": "Finance lease liabilities, current",
+    "source_row": "Finance lease liabilities, current |  | $ | 620 |  |  | $ | 257 | ",
+    "context_id": "C_f62bade6-47e1-4441-9bb3-1e534300c2f2",
+    "status": "reported",
+    "definition": "current finance lease liabilities"
+  },
+  {
+    "tag": "us-gaap:FinanceLeaseLiabilityCurrent",
+    "val": 257000000,
+    "end": "2025-05-31",
+    "unit": "USD",
+    "accn": "0001193125-26-277521",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "source_label": "Finance lease liabilities, current",
+    "source_row": "Finance lease liabilities, current |  | $ | 620 |  |  | $ | 257 | ",
+    "context_id": "C_040b053c-9a15-42c8-a0d7-747f706ff2f6",
+    "status": "reported",
+    "definition": "current finance lease liabilities"
+  },
+  {
+    "tag": "us-gaap:FinanceLeaseLiabilityNoncurrent",
+    "val": 7081000000,
+    "end": "2026-05-31",
+    "unit": "USD",
+    "accn": "0001193125-26-277521",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "source_label": "Finance lease liabilities, non-current",
+    "source_row": "Finance lease liabilities, non-current |  |  | 7,081 |  |  |  | 2,677 | ",
+    "context_id": "C_f62bade6-47e1-4441-9bb3-1e534300c2f2",
+    "status": "reported",
+    "definition": "noncurrent finance lease liabilities"
+  },
+  {
+    "tag": "us-gaap:FinanceLeaseLiabilityNoncurrent",
+    "val": 2677000000,
+    "end": "2025-05-31",
+    "unit": "USD",
+    "accn": "0001193125-26-277521",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "source_label": "Finance lease liabilities, non-current",
+    "source_row": "Finance lease liabilities, non-current |  |  | 7,081 |  |  |  | 2,677 | ",
+    "context_id": "C_040b053c-9a15-42c8-a0d7-747f706ff2f6",
+    "status": "reported",
+    "definition": "noncurrent finance lease liabilities"
+  },
+  {
+    "tag": "us-gaap:FinanceLeaseLiability",
+    "val": 7701000000,
+    "end": "2026-05-31",
+    "unit": "USD",
+    "accn": "0001193125-26-277521",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "source_label": "Total finance lease liabilities",
+    "source_row": "Total finance lease liabilities |  | $ | 7,701 |  |  | $ | 2,934 | ",
+    "context_id": "C_f62bade6-47e1-4441-9bb3-1e534300c2f2",
+    "status": "reported",
+    "definition": "total finance lease liabilities"
+  },
+  {
+    "tag": "us-gaap:FinanceLeaseLiability",
+    "val": 2934000000,
+    "end": "2025-05-31",
+    "unit": "USD",
+    "accn": "0001193125-26-277521",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "source_label": "Total finance lease liabilities",
+    "source_row": "Total finance lease liabilities |  | $ | 7,701 |  |  | $ | 2,934 | ",
+    "context_id": "C_040b053c-9a15-42c8-a0d7-747f706ff2f6",
+    "status": "reported",
+    "definition": "total finance lease liabilities"
+  },
+  {
+    "tag": "us-gaap:FinanceLeaseLiability",
+    "val": 7701000000,
+    "end": "2026-05-31",
+    "unit": "USD",
+    "accn": "0001193125-26-277521",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "source_label": "Total lease liability",
+    "source_row": "Total lease liability |  | $ | 30,190 |  |  | $ | 7,701 | ",
+    "context_id": "C_f62bade6-47e1-4441-9bb3-1e534300c2f2",
+    "status": "reported",
+    "definition": "total finance lease liabilities"
+  }
+]

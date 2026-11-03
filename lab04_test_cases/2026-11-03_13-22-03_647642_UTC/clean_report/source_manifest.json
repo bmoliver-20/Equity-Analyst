@@ -1,0 +1,31 @@
+{
+  "source_folder": "/Users/brodyman20/FIN67110/research_runs/MICROSOFT_CORP_2026-11-03_06-03-42_020772_UTC",
+  "sha256": {
+    "10-K.txt": "7bb93b1c4cf34ac2e5ca81cefb84982592980261845d10af8c93ae9ccca6591f",
+    "10-Q.txt": "b5bc36acba582ce7e0520d8e254ff60ce4ee68024cc12a823fe7c3a82b6fe5cf",
+    "8-K.txt": "fb41960d5db7e9dc45063df1ba5b6f536944c08ae263e865fa55a7db809d0f09",
+    "annual_debt_evidence_1341439.json": "5f8463ac3ea4800d385b5413e57042c45c4cc5d87fed063173684f97e303ae66",
+    "annual_debt_evidence_1652044.json": "b7c1c8b5a4c843d83906e9f4ad77f946621da48170fca095b46d4e5deaa44996",
+    "annual_debt_evidence_320193.json": "dff71279c009cf5178cc1af32268a2e05ba10ad7398cbc66fd7a099ba8d58564",
+    "annual_debt_evidence_789019.json": "b1b6107a2e858956767de420384abf0dea67515b0b007fe5c1af065c7bc264b2",
+    "annual_revenue_evidence_1341439.json": "7c9aeff4acc1f7f2674d1fb4c2f0544004fcaf5138fcd4ff8253abf319df4d4f",
+    "annual_revenue_evidence_1652044.json": "d1f6e6a02112385dc0c700246a84507952f5c7ddf15edea5590e6244c5a6150f",
+    "annual_revenue_evidence_320193.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "annual_revenue_evidence_789019.json": "40a0122a2059ce6de38eed9f9e0b909bfa8448b796ff39f53511406142ee0a6b",
+    "annual_revenue_source_1341439.html": "6901bd48b2f2f8d46b8859648c673c5103936abbc8943452ec08a5c1ce2c33b9",
+    "annual_revenue_source_1652044.html": "e7c9deecf152f496903fa603d9fc919870ac0078ec3f895ce28e355ef550e924",
+    "annual_revenue_source_320193.html": "6468e4b33a672d905bc1f6b86d8a62321f7a287930d1fa1f79a9bde57be10b6c",
+    "annual_revenue_source_789019.html": "1794e4290cb6bb1c92eeb0d40d2f8cba113cb5afe717adbab2e043eaaaa08d56",
+    "calculations.json": "a8c8b6c3eb1d19b0baef3740251b9592b8d0e4fc73570a420a89d2ae2ccbdce4",
+    "company.json": "9e38cb385768449c293904920befa4b35e6caf21f9718d7fe3f31b09dfde7950",
+    "companyfacts_raw.json": "8b03915745cffa43412d664a2101420f0a4f9204ff5f17404a26020c23b179c2",
+    "earnings_release_99_1.html": "60842dab18136957256fcbbf171add985c2ea43848bfb06f8128dca14d07ef40",
+    "earnings_release_99_1.txt": "e126831b3992a1a254722ed5f11cbd7670c1809b541a3a83d3a3aae87d2602fe",
+    "facts.json": "c833d95ac82065b8af7ee48c6f3cffd0bae93481ccb6c0a41f7ffc727ba88251",
+    "filings.json": "483f743e9a9d687eabaa97f4bfece89df2962f6cb1fa12f1dbf6f03c54882704",
+    "peer_1341439_companyfacts_raw.json": "a4f49adab9362d1ad148ec9d3b715c0a7f4a22c077b0e7e5a35383fa12860ae1",
+    "peer_1652044_companyfacts_raw.json": "20cf64d4e5468136ae835abe17759dff03757a0a52c51c9d06431c70d51d3708",
+    "peers.json": "919de4dba698226f5ab464bad0536800a5ef64c0e69ce6c4e4003744c4e956c2",
+    "release_lines.json": "b0ce25c6601ee9f8eeb13076521e629fcc62411dfece0813412dd883285a2268"
+  }
+}
