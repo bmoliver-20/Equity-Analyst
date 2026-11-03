@@ -34,7 +34,7 @@ This version supports annual US-GAAP USD facts and HTML/plain-text filings. It r
 
 Tests cover all seven steps with synthetic SEC responses, historical submissions, Item 2.02 selection, annual/quarterly separation, newer candidate tags, restatements, period alignment, current debt, missing data, zero denominators, negative EPS, source parsing, and the User-Agent session header. A live seven-step run also completed with one peer.
 
-Implementation follows the requested seven-step specification. The Francis–Zhang (2026) article was identified, but Section 3.1 was not accessible during development, so exact conformity to that section has not been verified. Model roles are not implemented.
+Implementation follows the requested seven-step specification. The Francis–Zhang (2026) article was identified, but Section 3.1 was not accessible during development, so exact conformity to that section has not been verified. The optional Lab 03 four-role report workflow is documented in [LAB03_WORKFLOW.md](LAB03_WORKFLOW.md). Model calls require explicit `--report --model MODEL` options; the seven data steps do not make model calls.
 
 Sources:
 - SEC APIs: https://www.sec.gov/search-filings/edgar-application-programming-interfaces

@@ -1,0 +1,11 @@
+{
+  "status": {
+    "status": "failed; no report compiled",
+    "audit": "lab03_20261102_151506_412029_audit.md",
+    "human_verification": null,
+    "partner_sign_off": null,
+    "mock_responses": false,
+    "model": "gemini-2.5-flash"
+  },
+  "calls": []
+}

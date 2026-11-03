@@ -1,4 +1,4 @@
-"""SEC research data pipeline. Python 3. No model calls or API keys required."""
+"""SEC research data pipeline. Python 3. Optional --report uses Gemini."""
 from __future__ import annotations
 
 import argparse
@@ -459,7 +459,11 @@ def main():
     parser.add_argument('--peers', nargs='+', default=[], help='Peer tickers, separated by spaces or commas')
     parser.add_argument('--price', type=float, help='USD price per share for annual P/E')
     parser.add_argument('--step', type=int, choices=range(1, 8), help='Run only this step; fetch its inputs as needed')
+    parser.add_argument('--report', action='store_true', help='After all seven steps, make live Gemini role calls and write a Lab 03 report')
+    parser.add_argument('--model', help='Gemini model name; required with --report')
     args = parser.parse_args()
+    if args.report and (args.step or not args.model):
+        parser.error('--report requires --model and a full run (no --step)')
     if args.price is not None and (not math.isfinite(args.price) or args.price <= 0):
         parser.error('--price must be finite and greater than zero')
     user_agent = dotenv_values(ROOT / '.env').get('SEC_USER_AGENT')
@@ -478,6 +482,18 @@ def main():
             failed = True
     if 'folder' in desk.__dict__:
         print(f'\nSaved results: {desk.folder}')
+    if args.report:
+        if failed:
+            print('Report not started: one or more data steps failed.')
+            return 1
+        from report_workflow import GeminiModel, ReportError, prepare, run_report
+        try:
+            data = prepare(desk.folder, args.price)
+            model = GeminiModel.from_env(args.model, ROOT / '.env')
+            run_report(desk.folder, model, args.price, data)
+        except ReportError as exc:
+            print(str(exc))
+            return 1
     return 1 if failed else 0
 
 
