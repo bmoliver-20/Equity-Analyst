@@ -1,0 +1,58 @@
+# Lab 03 human report audit
+
+Errors (Wrong + Unsupported): 
+Missing claims: 
+Reviewer: 
+Review date: 
+Partner: Abraham Blaesing (selected company)
+Partner claim 1 and mark: core claim 1, annual total revenue — Correct
+Partner claim 2 and mark: core claim 11, quarterly GAAP diluted EPS — Correct
+
+Human use only. Leave marks blank until you compare the report with the named filings.
+Allowed marks: Correct; Wrong; Unsupported; Missing; Not in filings. Not in filings counts in neither total.
+
+| # | Claim | Report said | Filing says | Mark | Source / definition |
+|---|---|---|---|---|---|
+| 1 | Total revenue, latest fiscal year | 331,839 USD million (Report: Overview lines 16, 26; Market Positioning line 32; Valuation line 56; Peer table line 69) | 331,839 USD million | | 10-K p. 50, Income Statements row "Total revenue"; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; accn 0001193125-26-323660 |
+| 2 | Annual revenue growth versus prior year | 17.7887% ((331,839 − 281,724) / 281,724 × 100) (Report: Market Positioning line 32; Valuation line 56) | 17.7887% calculated from 10-K p. 50 (331,839 and 281,724 USD million) | | Calculated: (current - prior) / prior * 100; 10-K p. 50; accn 0001193125-26-323660 |
+| 3 | Operating income and operating margin | Operating income: 155,237 USD million (Report: Overview line 17; Peer table line 69); Operating margin: 46.7808% (155,237 / 331,839 × 100) (Report: Valuation line 57; Peer table line 69) | Operating income: 155,237 USD million; Margin: 46.7808% calculated | | 10-K p. 50, Income Statements row "Operating income"; us-gaap:OperatingIncomeLoss; margin = operating_income / total_revenue; accn 0001193125-26-323660 |
+| 4 | Net income attributable to the company | 133,749 USD million (Report: Overview line 18; Valuation line 58) | 133,749 USD million | | 10-K p. 50, Income Statements row "Net income"; us-gaap:NetIncomeLoss; accn 0001193125-26-323660 |
+| 5 | Annual diluted EPS, GAAP | 17.95 USD/share (Report: Overview line 19; Valuation line 50) | 17.95 USD per diluted share | | 10-K p. 50, Income Statements row "Earnings per share: Diluted"; us-gaap:EarningsPerShareDiluted; accn 0001193125-26-323660 |
+| 6 | Return on average equity | 34.0386% (133,749 / ((442,387 + 343,479) / 2) × 100) (Report: Valuation line 58) | 34.0386% calculated from 10-K pp. 50, 52 | | Calculated: net_income / mean(current_equity, prior_equity) * 100; 10-K pp. 50, 52; accn 0001193125-26-323660 |
+| 7 | Debt to equity | 0.0911 times ((31,067 + 9,227) / 442,387) (Report: Valuation lines 59, 63) | 0.0911 times (40,294 / 442,387) calculated from 10-K p. 52 | | Calculated: (LongTermDebtNoncurrent + LongTermDebtCurrent) / StockholdersEquity; 10-K p. 52; accn 0001193125-26-323660 |
+| 8 | Free cash flow | 66,987 USD million (182,935 − 115,948) (Report: Valuation line 60; Recommendation line 86) | 66,987 USD million calculated from 10-K p. 53 (182,935 - 115,948) | | Calculated: NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment; 10-K p. 53; accn 0001193125-26-323660 |
+| 9 | Latest quarter total revenue | 92,279 USD million (Report: Market Positioning line 38; Valuation line 61) | 92,279 USD million | | 8-K / Exhibit 99.1, Income Statements, Three Months Ended Sep 30, 2026 row "Total revenue"; accn 0001193125-26-436122 |
+| 10 | Quarter revenue growth versus same quarter last year | 18.8045% ((92,279 − 77,673) / 77,673 × 100) [19% headline] (Report: Market Positioning line 44; Valuation line 61) | 18.8045% calculated from 8-K Exhibit 99.1 (92,279 and 77,673 USD million); 19% reported in headline | | Calculated: (current_quarter - comparative_quarter) / comparative_quarter * 100; 8-K / Exhibit 99.1; accn 0001193125-26-436122 |
+| 11 | Quarter diluted EPS, GAAP | 4.92 USD/share (Report: Market Positioning lines 41, 44) | 4.92 USD per diluted share (GAAP) | | 8-K / Exhibit 99.1, Income Statements row "Diluted" and reconciliation row "Diluted earnings per share As Reported (GAAP)"; accn 0001193125-26-436122 |
+| Extra | prior.revenue | 281,724 USD million (Report: Overview lines 16, 26; Market Positioning line 32) | 281,724 USD million | | 10-K p. 50 row "Total revenue"; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; accn 0001193125-26-323660 |
+| Extra | prior.operating_income | 128,528 USD million (Report: Overview line 17) | 128,528 USD million | | 10-K p. 50 row "Operating income"; us-gaap:OperatingIncomeLoss; accn 0001193125-26-323660 |
+| Extra | prior.net_income | 101,832 USD million (Report: Overview line 18) | 101,832 USD million | | 10-K p. 50 row "Net income"; us-gaap:NetIncomeLoss; accn 0001193125-26-323660 |
+| Extra | prior.diluted_eps | 13.64 USD/share (Report: Overview line 19) | 13.64 USD per diluted share | | 10-K p. 50 row "Earnings per share: Diluted"; us-gaap:EarningsPerShareDiluted; accn 0001193125-26-323660 |
+| Extra | annual.equity | 442,387 USD million (Report: Overview line 20; Valuation lines 58, 59) | 442,387 USD million | | 10-K p. 52 row "Total stockholders’ equity"; us-gaap:StockholdersEquity; accn 0001193125-26-323660 |
+| Extra | prior.equity | 343,479 USD million (Report: Overview line 20; Valuation line 58) | 343,479 USD million | | 10-K p. 52 row "Total stockholders’ equity"; us-gaap:StockholdersEquity; accn 0001193125-26-323660 |
+| Extra | annual.long_term_debt | 31,067 USD million (Report: Overview line 21; Valuation lines 59, 63) | 31,067 USD million | | 10-K p. 52 row "Long-term debt"; us-gaap:LongTermDebtNoncurrent; accn 0001193125-26-323660 |
+| Extra | prior.long_term_debt | 40,152 USD million (Report: Overview line 21) | 40,152 USD million | | 10-K p. 52 row "Long-term debt"; us-gaap:LongTermDebtNoncurrent; accn 0001193125-26-323660 |
+| Extra | annual.current_debt | 9,227 USD million (Report: Overview line 22; Valuation lines 59, 63) | 9,227 USD million | | 10-K p. 52 row "Current portion of long-term debt"; us-gaap:LongTermDebtCurrent; accn 0001193125-26-323660 |
+| Extra | prior.current_debt | 2,999 USD million (Report: Overview line 22) | 2,999 USD million | | 10-K p. 52 row "Current portion of long-term debt"; us-gaap:LongTermDebtCurrent; accn 0001193125-26-323660 |
+| Extra | annual.operating_cash_flow | 182,935 USD million (Report: Overview line 23; Valuation line 60; Recommendation line 86) | 182,935 USD million | | 10-K p. 53 row "Net cash from operations"; us-gaap:NetCashProvidedByUsedInOperatingActivities; accn 0001193125-26-323660 |
+| Extra | prior.operating_cash_flow | 136,162 USD million (Report: Overview line 23) | 136,162 USD million | | 10-K p. 53 row "Net cash from operations"; us-gaap:NetCashProvidedByUsedInOperatingActivities; accn 0001193125-26-323660 |
+| Extra | annual.capital_expenditures | 115,948 USD million (Report: Overview line 24; Valuation line 60; Recommendation line 86) | 115,948 USD million (reported as $(115,948) outflow) | | 10-K p. 53 row "Additions to property and equipment"; us-gaap:PaymentsToAcquirePropertyPlantAndEquipment; accn 0001193125-26-323660 |
+| Extra | prior.capital_expenditures | 64,551 USD million (Report: Overview line 24) | 64,551 USD million (reported as $(64,551) outflow) | | 10-K p. 53 row "Additions to property and equipment"; us-gaap:PaymentsToAcquirePropertyPlantAndEquipment; accn 0001193125-26-323660 |
+| Extra | ratio.price_to_earnings | Unavailable / unevaluated: No instructor share price supplied (Report: Valuation line 50) | Not in filings (requires market price) | | calculations.json price_to_earnings; formula = price / diluted_eps (17.95 USD/share) |
+| Extra | quarter.prior_revenue | 77,673 USD million (Report: Market Positioning line 38) | 77,673 USD million | | 8-K / Exhibit 99.1 row "Total revenue" Three Months Ended Sep 30, 2025; accn 0001193125-26-436122 |
+| Extra | quarter.prior_diluted_eps | 3.72 USD/share (Report: Market Positioning line 41) | 3.72 USD per diluted share (GAAP) | | 8-K / Exhibit 99.1 row "Diluted" Three Months Ended Sep 30, 2025; accn 0001193125-26-436122 |
+| Extra | peer.GOOGL.revenue | 402,836 USD million (Report: Valuation line 70) | 402,836 USD million | | GOOGL 10-K (accn 0001652044-26-000018) row "Total revenues"; us-gaap:Revenues; period ended 2025-12-31 |
+| Extra | peer.GOOGL.operating_income | 129,039 USD million (Report: Valuation line 70) | 129,039 USD million | | GOOGL 10-K (accn 0001652044-26-000018) row "Operating income"; us-gaap:OperatingIncomeLoss; period ended 2025-12-31 |
+| Extra | peer.GOOGL.operating_margin | 32.0326% (129,039 / 402,836 × 100) (Report: Valuation line 70) | 32.0326% calculated | | Calculated: GOOGL operating_income / revenue * 100; accn 0001652044-26-000018 |
+| Extra | peer.ORCL.revenue | 67,357 USD million (Report: Valuation line 71) | 67,357 USD million | | ORCL 10-K (accn 0001193125-26-277521) row "Total revenues"; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; period ended 2026-05-31 |
+| Extra | peer.ORCL.operating_income | 20,606 USD million (Report: Valuation line 71) | 20,606 USD million | | ORCL 10-K (accn 0001193125-26-277521) row "Operating income"; us-gaap:OperatingIncomeLoss; period ended 2026-05-31 |
+| Extra | peer.ORCL.operating_margin | 30.5922% (20,606 / 67,357 × 100) (Report: Valuation line 71) | 30.5922% calculated | | Calculated: ORCL operating_income / revenue * 100; accn 0001193125-26-277521 |
+| Extra | peer.AAPL.revenue | Unavailable / Not supplied in this packet (Report: Valuation line 72) | Apple reports Total net sales; strict desk total-revenue rule does not substitute net sales | | AAPL 10-K (accn 0000320193-25-000079); automated revenue-definition reconciliation failed |
+| Extra | peer.AAPL.operating_income | Unavailable / Not supplied in this packet (Report: Valuation line 72) | Not supplied in peer output | | AAPL 10-K (accn 0000320193-25-000079) |
+| Extra | peer.AAPL.operating_margin | Unavailable (Report: Valuation lines 72, 74) | Unavailable; no supported denominator in supplied peer output | | Desk rule: No consolidated total revenue could be matched to filing definitions and XBRL. Net sales is not substituted. |
+| Extra | revenue_breakdown | FY26 product revenue 64,696, service and other 267,143; FY25 product 63,946, service and other 217,778 USD million (Report: Overview line 26) | FY26 product $64,696M, service and other $267,143M; FY25 product $63,946M, service and other $217,778M | | 10-K p. 50 rows "Product" and "Service and other"; accn 0001193125-26-323660 |
+| Extra | openai_investment_impact | Q1 FY27 non-GAAP excludes OpenAI investment impact ($207M net gain / $0.03 EPS); Q1 FY26 ($3,086M net loss / $0.41 EPS) (Report: Market Positioning line 44) | Impact from OpenAI: Q1 FY27 $(207)M / $(0.03) EPS; Q1 FY26 $3,086M / $0.41 EPS | | 8-K Exhibit 99.1 reconciliation table and Non-GAAP Definition; accn 0001193125-26-436122 |
+| Template | Five required parts | All 5 required parts present in order: 1. Overview (line 4), 2. Market Positioning and Growth Outlook (line 28), 3. Valuation Insights (line 48), 4. Future Developments and Strategic Recommendations (line 78), 5. Investment Recommendation (line 84) | Five required parts in specified order | | Course Lab 03 report structure specification |
+| Recommendation | Buy/Hold/Sell, deciding number, thesis support | Recommendation: Provisional Hold (line 86); Deciding metric: FY26 free cash flow of 66,987 USD million (182,935 − 115,948) (line 86); Thesis: Positive cash generation after cash PP&E additions supports constructive operating thesis, but price unavailable (lines 86-88) | Required: explicit Buy/Hold/Sell, deciding Financial Analyst number, thesis support and limitations | | Course Lab 03 rubric and instructions |
+
+Partner sign-off: Abraham Blaesing  Date: 11/2/26

@@ -1,0 +1,1197 @@
+{
+  "periods": {
+    "current": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "prior": {
+      "start": "2024-07-01",
+      "end": "2025-06-30"
+    }
+  },
+  "concepts": {
+    "revenue": {
+      "current": {
+        "start": "2025-07-01",
+        "end": "2026-06-30",
+        "val": 331839000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2026",
+        "revenue_definition": {
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "start": "2025-07-01",
+          "end": "2026-06-30",
+          "val": 331839000000,
+          "unit": "USD",
+          "accn": "0001193125-26-323660",
+          "context_id": "C_29985a27-1d12-4b7e-9a06-156523f6e71e",
+          "filing_label": "Total revenue",
+          "definition": "Consolidated total revenue as labelled in the income statement.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "source_row": "Total revenue |  |  | 331,839 |  |  |  | 281,724 |  |  |  | 245,122 | "
+        },
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD"
+      },
+      "prior": {
+        "start": "2024-07-01",
+        "end": "2025-06-30",
+        "val": 281724000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2025",
+        "revenue_definition": {
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "start": "2024-07-01",
+          "end": "2025-06-30",
+          "val": 281724000000,
+          "unit": "USD",
+          "accn": "0001193125-26-323660",
+          "context_id": "C_7575f467-7692-4974-a3da-f27e7e8e1c47",
+          "filing_label": "Total revenue",
+          "definition": "Consolidated total revenue as labelled in the income statement.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "source_row": "Total revenue |  |  | 331,839 |  |  |  | 281,724 |  |  |  | 245,122 | "
+        },
+        "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD"
+      }
+    },
+    "operating_income": {
+      "current": {
+        "start": "2025-07-01",
+        "end": "2026-06-30",
+        "val": 155237000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2026",
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD"
+      },
+      "prior": {
+        "start": "2024-07-01",
+        "end": "2025-06-30",
+        "val": 128528000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2025",
+        "tag": "us-gaap:OperatingIncomeLoss",
+        "unit": "USD"
+      }
+    },
+    "net_income": {
+      "current": {
+        "start": "2025-07-01",
+        "end": "2026-06-30",
+        "val": 133749000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "tag": "us-gaap:NetIncomeLoss",
+        "unit": "USD"
+      },
+      "prior": {
+        "start": "2024-07-01",
+        "end": "2025-06-30",
+        "val": 101832000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "tag": "us-gaap:NetIncomeLoss",
+        "unit": "USD"
+      }
+    },
+    "diluted_eps": {
+      "current": {
+        "start": "2025-07-01",
+        "end": "2026-06-30",
+        "val": 17.95,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2026",
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "unit": "USD/shares"
+      },
+      "prior": {
+        "start": "2024-07-01",
+        "end": "2025-06-30",
+        "val": 13.64,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2025",
+        "tag": "us-gaap:EarningsPerShareDiluted",
+        "unit": "USD/shares"
+      }
+    },
+    "equity": {
+      "current": {
+        "end": "2026-06-30",
+        "val": 442387000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "tag": "us-gaap:StockholdersEquity",
+        "unit": "USD"
+      },
+      "prior": {
+        "end": "2025-06-30",
+        "val": 343479000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2025Q2I",
+        "tag": "us-gaap:StockholdersEquity",
+        "unit": "USD"
+      }
+    },
+    "long_term_debt": {
+      "current": {
+        "end": "2026-06-30",
+        "val": 31067000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "unit": "USD",
+        "definition": "noncurrent long-term debt, excluding finance leases",
+        "status": "reported",
+        "source_label": "Long-term debt",
+        "label_origin": "filing row",
+        "sources": [
+          {
+            "tag": "us-gaap:LongTermDebtNoncurrent",
+            "val": 31067000000,
+            "end": "2026-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Long-term debt",
+            "source_row": "Long-term debt |  |  | 31,067 |  |  |  | 40,152 | ",
+            "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+            "status": "reported",
+            "definition": "noncurrent long-term debt, excluding finance leases"
+          },
+          {
+            "tag": "us-gaap:LongTermDebtNoncurrent",
+            "val": 31067000000,
+            "end": "2026-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Long-term debt",
+            "source_row": "Long-term debt |  |  |  |  |  |  |  |  |  |  |  | $ | 31,067 |  |  | $ | 40,152 | ",
+            "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+            "status": "reported",
+            "definition": "noncurrent long-term debt, excluding finance leases"
+          }
+        ]
+      },
+      "prior": {
+        "end": "2025-06-30",
+        "val": 40152000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2025Q2I",
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "unit": "USD",
+        "definition": "noncurrent long-term debt, excluding finance leases",
+        "status": "reported",
+        "source_label": "Long-term debt",
+        "label_origin": "filing row",
+        "sources": [
+          {
+            "tag": "us-gaap:LongTermDebtNoncurrent",
+            "val": 40152000000,
+            "end": "2025-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Long-term debt",
+            "source_row": "Long-term debt |  |  | 31,067 |  |  |  | 40,152 | ",
+            "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+            "status": "reported",
+            "definition": "noncurrent long-term debt, excluding finance leases"
+          },
+          {
+            "tag": "us-gaap:LongTermDebtNoncurrent",
+            "val": 40152000000,
+            "end": "2025-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Long-term debt",
+            "source_row": "Long-term debt |  |  |  |  |  |  |  |  |  |  |  | $ | 31,067 |  |  | $ | 40,152 | ",
+            "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+            "status": "reported",
+            "definition": "noncurrent long-term debt, excluding finance leases"
+          }
+        ]
+      }
+    },
+    "current_debt": {
+      "current": {
+        "end": "2026-06-30",
+        "val": 9227000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "unit": "USD",
+        "definition": "current portion of long-term debt, excluding finance leases",
+        "status": "reported",
+        "source_label": "Current portion of long-term debt",
+        "label_origin": "filing row",
+        "sources": [
+          {
+            "tag": "us-gaap:LongTermDebtCurrent",
+            "val": 9227000000,
+            "end": "2026-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Current portion of long-term debt",
+            "source_row": "Current portion of long-term debt |  |  | 9,227 |  |  |  | 2,999 | ",
+            "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+            "status": "reported",
+            "definition": "current portion of long-term debt, excluding finance leases"
+          },
+          {
+            "tag": "us-gaap:LongTermDebtCurrent",
+            "val": 9227000000,
+            "end": "2026-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Current portion of long-term debt",
+            "source_row": "Current portion of long-term debt |  |  |  |  |  |  |  |  |  |  |  |  | ( 9,227 | ) |  |  | ( 2,999 | )",
+            "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+            "status": "reported",
+            "definition": "current portion of long-term debt, excluding finance leases"
+          }
+        ]
+      },
+      "prior": {
+        "end": "2025-06-30",
+        "val": 2999000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2025Q2I",
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "unit": "USD",
+        "definition": "current portion of long-term debt, excluding finance leases",
+        "status": "reported",
+        "source_label": "Current portion of long-term debt",
+        "label_origin": "filing row",
+        "sources": [
+          {
+            "tag": "us-gaap:LongTermDebtCurrent",
+            "val": 2999000000,
+            "end": "2025-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Current portion of long-term debt",
+            "source_row": "Current portion of long-term debt |  |  | 9,227 |  |  |  | 2,999 | ",
+            "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+            "status": "reported",
+            "definition": "current portion of long-term debt, excluding finance leases"
+          },
+          {
+            "tag": "us-gaap:LongTermDebtCurrent",
+            "val": 2999000000,
+            "end": "2025-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Current portion of long-term debt",
+            "source_row": "Current portion of long-term debt |  |  |  |  |  |  |  |  |  |  |  |  | ( 9,227 | ) |  |  | ( 2,999 | )",
+            "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+            "status": "reported",
+            "definition": "current portion of long-term debt, excluding finance leases"
+          }
+        ]
+      }
+    },
+    "operating_cash_flow": {
+      "current": {
+        "start": "2025-07-01",
+        "end": "2026-06-30",
+        "val": 182935000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2026",
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD"
+      },
+      "prior": {
+        "start": "2024-07-01",
+        "end": "2025-06-30",
+        "val": 136162000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2025",
+        "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD"
+      }
+    },
+    "capital_expenditures": {
+      "current": {
+        "start": "2025-07-01",
+        "end": "2026-06-30",
+        "val": 115948000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2026",
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "unit": "USD"
+      },
+      "prior": {
+        "start": "2024-07-01",
+        "end": "2025-06-30",
+        "val": 64551000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2025",
+        "tag": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+        "unit": "USD"
+      }
+    }
+  },
+  "basis": "Annual US-GAAP, USD; latest filed values for matching periods; missing values are not zero.",
+  "debt": {
+    "current": {
+      "end": "2026-06-30",
+      "accn": "0001193125-26-323660",
+      "ratio_basis": "Current plus noncurrent long-term borrowings, excluding finance leases, operating leases, and standalone short-term borrowings.",
+      "reported": {
+        "LongTermDebtNoncurrent": {
+          "end": "2026-06-30",
+          "val": 31067000000,
+          "accn": "0001193125-26-323660",
+          "fy": 2026,
+          "fp": "FY",
+          "form": "10-K",
+          "filed": "2026-07-29",
+          "tag": "us-gaap:LongTermDebtNoncurrent",
+          "unit": "USD",
+          "definition": "noncurrent long-term debt, excluding finance leases",
+          "status": "reported",
+          "source_label": "Long-term debt",
+          "label_origin": "filing row",
+          "sources": [
+            {
+              "tag": "us-gaap:LongTermDebtNoncurrent",
+              "val": 31067000000,
+              "end": "2026-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Long-term debt",
+              "source_row": "Long-term debt |  |  | 31,067 |  |  |  | 40,152 | ",
+              "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+              "status": "reported",
+              "definition": "noncurrent long-term debt, excluding finance leases"
+            },
+            {
+              "tag": "us-gaap:LongTermDebtNoncurrent",
+              "val": 31067000000,
+              "end": "2026-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Long-term debt",
+              "source_row": "Long-term debt |  |  |  |  |  |  |  |  |  |  |  | $ | 31,067 |  |  | $ | 40,152 | ",
+              "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+              "status": "reported",
+              "definition": "noncurrent long-term debt, excluding finance leases"
+            }
+          ]
+        },
+        "LongTermDebtCurrent": {
+          "end": "2026-06-30",
+          "val": 9227000000,
+          "accn": "0001193125-26-323660",
+          "fy": 2026,
+          "fp": "FY",
+          "form": "10-K",
+          "filed": "2026-07-29",
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "definition": "current portion of long-term debt, excluding finance leases",
+          "status": "reported",
+          "source_label": "Current portion of long-term debt",
+          "label_origin": "filing row",
+          "sources": [
+            {
+              "tag": "us-gaap:LongTermDebtCurrent",
+              "val": 9227000000,
+              "end": "2026-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Current portion of long-term debt",
+              "source_row": "Current portion of long-term debt |  |  | 9,227 |  |  |  | 2,999 | ",
+              "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+              "status": "reported",
+              "definition": "current portion of long-term debt, excluding finance leases"
+            },
+            {
+              "tag": "us-gaap:LongTermDebtCurrent",
+              "val": 9227000000,
+              "end": "2026-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Current portion of long-term debt",
+              "source_row": "Current portion of long-term debt |  |  |  |  |  |  |  |  |  |  |  |  | ( 9,227 | ) |  |  | ( 2,999 | )",
+              "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+              "status": "reported",
+              "definition": "current portion of long-term debt, excluding finance leases"
+            }
+          ]
+        },
+        "LongTermDebt": {
+          "end": "2026-06-30",
+          "val": 40294000000,
+          "accn": "0001193125-26-323660",
+          "fy": 2026,
+          "fp": "FY",
+          "form": "10-K",
+          "filed": "2026-07-29",
+          "tag": "us-gaap:LongTermDebt",
+          "unit": "USD",
+          "definition": "long-term debt aggregate; classification requires filing evidence; never add current debt",
+          "status": "reported",
+          "source_label": "Total debt",
+          "label_origin": "filing row",
+          "sources": [
+            {
+              "tag": "us-gaap:LongTermDebt",
+              "val": 40294000000,
+              "end": "2026-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Total debt",
+              "source_row": "Total debt |  |  |  |  |  |  |  |  |  |  |  |  | 40,294 |  |  |  | 43,151 | ",
+              "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+              "status": "reported",
+              "definition": "long-term debt aggregate; classification requires filing evidence; never add current debt"
+            }
+          ]
+        },
+        "FinanceLeaseLiability": {
+          "end": "2026-06-30",
+          "val": 66594000000,
+          "accn": "0001193125-26-323660",
+          "fy": 2026,
+          "fp": "FY",
+          "form": "10-K",
+          "filed": "2026-07-29",
+          "tag": "us-gaap:FinanceLeaseLiability",
+          "unit": "USD",
+          "definition": "total finance lease liabilities",
+          "status": "reported",
+          "source_label": "Total finance lease liabilities",
+          "label_origin": "filing row",
+          "sources": [
+            {
+              "tag": "us-gaap:FinanceLeaseLiability",
+              "val": 66594000000,
+              "end": "2026-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Total finance lease liabilities",
+              "source_row": "Total finance lease liabilities |  | $ | 66,594 |  |  | $ | 46,172 | ",
+              "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+              "status": "reported",
+              "definition": "total finance lease liabilities"
+            },
+            {
+              "tag": "us-gaap:FinanceLeaseLiability",
+              "val": 66594000000,
+              "end": "2026-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Total",
+              "source_row": "Total |  | $ | 21,925 |  |  | $ | 66,594 | ",
+              "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+              "status": "reported",
+              "definition": "total finance lease liabilities"
+            }
+          ]
+        }
+      },
+      "custom_evidence": [
+        {
+          "tag": "msft:PremiumOnDebtExchange1",
+          "val": 4750000000,
+          "end": "2026-06-30",
+          "unit": "USD",
+          "accn": "0001193125-26-323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "source_label": "Premium on debt exchange",
+          "source_row": "Premium on debt exchange |  |  |  |  |  |  |  |  |  |  |  |  | ( 4,750 | ) |  |  | ( 4,864 | )",
+          "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+          "status": "reported",
+          "definition": "Custom concept; retained as evidence, not automatically classified."
+        },
+        {
+          "tag": "msft:DeferredTaxAssetsBookTaxBasisDifferencesInInvestmentsAndDebt",
+          "val": 0,
+          "end": "2026-06-30",
+          "unit": "USD",
+          "accn": "0001193125-26-323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "source_label": "Book/tax basis differences in investments and debt",
+          "source_row": "Book/tax basis differences in investments and debt |  |  | 0 |  |  |  | 303 | ",
+          "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+          "status": "reported",
+          "definition": "Custom concept; retained as evidence, not automatically classified."
+        },
+        {
+          "tag": "msft:DeferredTaxLiabilitiesBookTaxBasisDifferencesInvestmentsAndDebt",
+          "val": 2972000000,
+          "end": "2026-06-30",
+          "unit": "USD",
+          "accn": "0001193125-26-323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "source_label": "Book/tax basis differences in investments and debt",
+          "source_row": "Book/tax basis differences in investments and debt |  | $ | ( 2,972 | ) |  | $ | 0 | ",
+          "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+          "status": "reported",
+          "definition": "Custom concept; retained as evidence, not automatically classified."
+        }
+      ],
+      "excluded_current_candidates": [],
+      "current_debt_only": {
+        "end": "2026-06-30",
+        "val": 9227000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "unit": "USD",
+        "definition": "current portion of long-term debt, excluding finance leases",
+        "status": "reported",
+        "source_label": "Current portion of long-term debt",
+        "label_origin": "filing row",
+        "sources": [
+          {
+            "tag": "us-gaap:LongTermDebtCurrent",
+            "val": 9227000000,
+            "end": "2026-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Current portion of long-term debt",
+            "source_row": "Current portion of long-term debt |  |  | 9,227 |  |  |  | 2,999 | ",
+            "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+            "status": "reported",
+            "definition": "current portion of long-term debt, excluding finance leases"
+          },
+          {
+            "tag": "us-gaap:LongTermDebtCurrent",
+            "val": 9227000000,
+            "end": "2026-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Current portion of long-term debt",
+            "source_row": "Current portion of long-term debt |  |  |  |  |  |  |  |  |  |  |  |  | ( 9,227 | ) |  |  | ( 2,999 | )",
+            "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+            "status": "reported",
+            "definition": "current portion of long-term debt, excluding finance leases"
+          }
+        ]
+      },
+      "noncurrent_debt_only": {
+        "end": "2026-06-30",
+        "val": 31067000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "unit": "USD",
+        "definition": "noncurrent long-term debt, excluding finance leases",
+        "status": "reported",
+        "source_label": "Long-term debt",
+        "label_origin": "filing row",
+        "sources": [
+          {
+            "tag": "us-gaap:LongTermDebtNoncurrent",
+            "val": 31067000000,
+            "end": "2026-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Long-term debt",
+            "source_row": "Long-term debt |  |  | 31,067 |  |  |  | 40,152 | ",
+            "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+            "status": "reported",
+            "definition": "noncurrent long-term debt, excluding finance leases"
+          },
+          {
+            "tag": "us-gaap:LongTermDebtNoncurrent",
+            "val": 31067000000,
+            "end": "2026-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Long-term debt",
+            "source_row": "Long-term debt |  |  |  |  |  |  |  |  |  |  |  | $ | 31,067 |  |  | $ | 40,152 | ",
+            "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+            "status": "reported",
+            "definition": "noncurrent long-term debt, excluding finance leases"
+          }
+        ]
+      },
+      "total_debt_only": {
+        "val": 40294000000,
+        "tag": "calculated",
+        "unit": "USD",
+        "end": "2026-06-30",
+        "accn": "0001193125-26-323660",
+        "status": "calculated",
+        "definition": "Total current and noncurrent long-term borrowings, excluding finance leases",
+        "source_label": "Calculated: Total current and noncurrent long-term borrowings, excluding finance leases",
+        "inputs": [
+          {
+            "end": "2026-06-30",
+            "val": 31067000000,
+            "accn": "0001193125-26-323660",
+            "fy": 2026,
+            "fp": "FY",
+            "form": "10-K",
+            "filed": "2026-07-29",
+            "tag": "us-gaap:LongTermDebtNoncurrent",
+            "unit": "USD",
+            "definition": "noncurrent long-term debt, excluding finance leases",
+            "status": "reported",
+            "source_label": "Long-term debt",
+            "label_origin": "filing row",
+            "sources": [
+              {
+                "tag": "us-gaap:LongTermDebtNoncurrent",
+                "val": 31067000000,
+                "end": "2026-06-30",
+                "unit": "USD",
+                "accn": "0001193125-26-323660",
+                "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+                "source_label": "Long-term debt",
+                "source_row": "Long-term debt |  |  | 31,067 |  |  |  | 40,152 | ",
+                "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+                "status": "reported",
+                "definition": "noncurrent long-term debt, excluding finance leases"
+              },
+              {
+                "tag": "us-gaap:LongTermDebtNoncurrent",
+                "val": 31067000000,
+                "end": "2026-06-30",
+                "unit": "USD",
+                "accn": "0001193125-26-323660",
+                "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+                "source_label": "Long-term debt",
+                "source_row": "Long-term debt |  |  |  |  |  |  |  |  |  |  |  | $ | 31,067 |  |  | $ | 40,152 | ",
+                "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+                "status": "reported",
+                "definition": "noncurrent long-term debt, excluding finance leases"
+              }
+            ]
+          },
+          {
+            "end": "2026-06-30",
+            "val": 9227000000,
+            "accn": "0001193125-26-323660",
+            "fy": 2026,
+            "fp": "FY",
+            "form": "10-K",
+            "filed": "2026-07-29",
+            "tag": "us-gaap:LongTermDebtCurrent",
+            "unit": "USD",
+            "definition": "current portion of long-term debt, excluding finance leases",
+            "status": "reported",
+            "source_label": "Current portion of long-term debt",
+            "label_origin": "filing row",
+            "sources": [
+              {
+                "tag": "us-gaap:LongTermDebtCurrent",
+                "val": 9227000000,
+                "end": "2026-06-30",
+                "unit": "USD",
+                "accn": "0001193125-26-323660",
+                "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+                "source_label": "Current portion of long-term debt",
+                "source_row": "Current portion of long-term debt |  |  | 9,227 |  |  |  | 2,999 | ",
+                "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+                "status": "reported",
+                "definition": "current portion of long-term debt, excluding finance leases"
+              },
+              {
+                "tag": "us-gaap:LongTermDebtCurrent",
+                "val": 9227000000,
+                "end": "2026-06-30",
+                "unit": "USD",
+                "accn": "0001193125-26-323660",
+                "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+                "source_label": "Current portion of long-term debt",
+                "source_row": "Current portion of long-term debt |  |  |  |  |  |  |  |  |  |  |  |  | ( 9,227 | ) |  |  | ( 2,999 | )",
+                "context_id": "C_ca004a37-7abb-4b0e-8638-a7c6b14ebb45",
+                "status": "reported",
+                "definition": "current portion of long-term debt, excluding finance leases"
+              }
+            ]
+          }
+        ],
+        "arithmetic": "31067000000 + 9227000000 = 40294000000"
+      },
+      "total_debt_including_finance_leases": null,
+      "unavailable_reason": null
+    },
+    "prior": {
+      "end": "2025-06-30",
+      "accn": "0001193125-26-323660",
+      "ratio_basis": "Current plus noncurrent long-term borrowings, excluding finance leases, operating leases, and standalone short-term borrowings.",
+      "reported": {
+        "LongTermDebtNoncurrent": {
+          "end": "2025-06-30",
+          "val": 40152000000,
+          "accn": "0001193125-26-323660",
+          "fy": 2026,
+          "fp": "FY",
+          "form": "10-K",
+          "filed": "2026-07-29",
+          "frame": "CY2025Q2I",
+          "tag": "us-gaap:LongTermDebtNoncurrent",
+          "unit": "USD",
+          "definition": "noncurrent long-term debt, excluding finance leases",
+          "status": "reported",
+          "source_label": "Long-term debt",
+          "label_origin": "filing row",
+          "sources": [
+            {
+              "tag": "us-gaap:LongTermDebtNoncurrent",
+              "val": 40152000000,
+              "end": "2025-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Long-term debt",
+              "source_row": "Long-term debt |  |  | 31,067 |  |  |  | 40,152 | ",
+              "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+              "status": "reported",
+              "definition": "noncurrent long-term debt, excluding finance leases"
+            },
+            {
+              "tag": "us-gaap:LongTermDebtNoncurrent",
+              "val": 40152000000,
+              "end": "2025-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Long-term debt",
+              "source_row": "Long-term debt |  |  |  |  |  |  |  |  |  |  |  | $ | 31,067 |  |  | $ | 40,152 | ",
+              "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+              "status": "reported",
+              "definition": "noncurrent long-term debt, excluding finance leases"
+            }
+          ]
+        },
+        "LongTermDebtCurrent": {
+          "end": "2025-06-30",
+          "val": 2999000000,
+          "accn": "0001193125-26-323660",
+          "fy": 2026,
+          "fp": "FY",
+          "form": "10-K",
+          "filed": "2026-07-29",
+          "frame": "CY2025Q2I",
+          "tag": "us-gaap:LongTermDebtCurrent",
+          "unit": "USD",
+          "definition": "current portion of long-term debt, excluding finance leases",
+          "status": "reported",
+          "source_label": "Current portion of long-term debt",
+          "label_origin": "filing row",
+          "sources": [
+            {
+              "tag": "us-gaap:LongTermDebtCurrent",
+              "val": 2999000000,
+              "end": "2025-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Current portion of long-term debt",
+              "source_row": "Current portion of long-term debt |  |  | 9,227 |  |  |  | 2,999 | ",
+              "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+              "status": "reported",
+              "definition": "current portion of long-term debt, excluding finance leases"
+            },
+            {
+              "tag": "us-gaap:LongTermDebtCurrent",
+              "val": 2999000000,
+              "end": "2025-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Current portion of long-term debt",
+              "source_row": "Current portion of long-term debt |  |  |  |  |  |  |  |  |  |  |  |  | ( 9,227 | ) |  |  | ( 2,999 | )",
+              "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+              "status": "reported",
+              "definition": "current portion of long-term debt, excluding finance leases"
+            }
+          ]
+        },
+        "LongTermDebt": {
+          "end": "2025-06-30",
+          "val": 43151000000,
+          "accn": "0001193125-26-323660",
+          "fy": 2026,
+          "fp": "FY",
+          "form": "10-K",
+          "filed": "2026-07-29",
+          "frame": "CY2025Q2I",
+          "tag": "us-gaap:LongTermDebt",
+          "unit": "USD",
+          "definition": "long-term debt aggregate; classification requires filing evidence; never add current debt",
+          "status": "reported",
+          "source_label": "Total debt",
+          "label_origin": "filing row",
+          "sources": [
+            {
+              "tag": "us-gaap:LongTermDebt",
+              "val": 43151000000,
+              "end": "2025-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Total debt",
+              "source_row": "Total debt |  |  |  |  |  |  |  |  |  |  |  |  | 40,294 |  |  |  | 43,151 | ",
+              "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+              "status": "reported",
+              "definition": "long-term debt aggregate; classification requires filing evidence; never add current debt"
+            }
+          ]
+        },
+        "FinanceLeaseLiability": {
+          "end": "2025-06-30",
+          "val": 46172000000,
+          "accn": "0001193125-26-323660",
+          "fy": 2026,
+          "fp": "FY",
+          "form": "10-K",
+          "filed": "2026-07-29",
+          "frame": "CY2025Q2I",
+          "tag": "us-gaap:FinanceLeaseLiability",
+          "unit": "USD",
+          "definition": "total finance lease liabilities",
+          "status": "reported",
+          "source_label": "Total finance lease liabilities",
+          "label_origin": "filing row",
+          "sources": [
+            {
+              "tag": "us-gaap:FinanceLeaseLiability",
+              "val": 46172000000,
+              "end": "2025-06-30",
+              "unit": "USD",
+              "accn": "0001193125-26-323660",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source_label": "Total finance lease liabilities",
+              "source_row": "Total finance lease liabilities |  | $ | 66,594 |  |  | $ | 46,172 | ",
+              "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+              "status": "reported",
+              "definition": "total finance lease liabilities"
+            }
+          ]
+        }
+      },
+      "custom_evidence": [
+        {
+          "tag": "msft:PremiumOnDebtExchange1",
+          "val": 4864000000,
+          "end": "2025-06-30",
+          "unit": "USD",
+          "accn": "0001193125-26-323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "source_label": "Premium on debt exchange",
+          "source_row": "Premium on debt exchange |  |  |  |  |  |  |  |  |  |  |  |  | ( 4,750 | ) |  |  | ( 4,864 | )",
+          "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+          "status": "reported",
+          "definition": "Custom concept; retained as evidence, not automatically classified."
+        },
+        {
+          "tag": "msft:DeferredTaxAssetsBookTaxBasisDifferencesInInvestmentsAndDebt",
+          "val": 303000000,
+          "end": "2025-06-30",
+          "unit": "USD",
+          "accn": "0001193125-26-323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "source_label": "Book/tax basis differences in investments and debt",
+          "source_row": "Book/tax basis differences in investments and debt |  |  | 0 |  |  |  | 303 | ",
+          "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+          "status": "reported",
+          "definition": "Custom concept; retained as evidence, not automatically classified."
+        },
+        {
+          "tag": "msft:DeferredTaxLiabilitiesBookTaxBasisDifferencesInvestmentsAndDebt",
+          "val": 0,
+          "end": "2025-06-30",
+          "unit": "USD",
+          "accn": "0001193125-26-323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "source_label": "Book/tax basis differences in investments and debt",
+          "source_row": "Book/tax basis differences in investments and debt |  | $ | ( 2,972 | ) |  | $ | 0 | ",
+          "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+          "status": "reported",
+          "definition": "Custom concept; retained as evidence, not automatically classified."
+        }
+      ],
+      "excluded_current_candidates": [],
+      "current_debt_only": {
+        "end": "2025-06-30",
+        "val": 2999000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2025Q2I",
+        "tag": "us-gaap:LongTermDebtCurrent",
+        "unit": "USD",
+        "definition": "current portion of long-term debt, excluding finance leases",
+        "status": "reported",
+        "source_label": "Current portion of long-term debt",
+        "label_origin": "filing row",
+        "sources": [
+          {
+            "tag": "us-gaap:LongTermDebtCurrent",
+            "val": 2999000000,
+            "end": "2025-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Current portion of long-term debt",
+            "source_row": "Current portion of long-term debt |  |  | 9,227 |  |  |  | 2,999 | ",
+            "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+            "status": "reported",
+            "definition": "current portion of long-term debt, excluding finance leases"
+          },
+          {
+            "tag": "us-gaap:LongTermDebtCurrent",
+            "val": 2999000000,
+            "end": "2025-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Current portion of long-term debt",
+            "source_row": "Current portion of long-term debt |  |  |  |  |  |  |  |  |  |  |  |  | ( 9,227 | ) |  |  | ( 2,999 | )",
+            "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+            "status": "reported",
+            "definition": "current portion of long-term debt, excluding finance leases"
+          }
+        ]
+      },
+      "noncurrent_debt_only": {
+        "end": "2025-06-30",
+        "val": 40152000000,
+        "accn": "0001193125-26-323660",
+        "fy": 2026,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2026-07-29",
+        "frame": "CY2025Q2I",
+        "tag": "us-gaap:LongTermDebtNoncurrent",
+        "unit": "USD",
+        "definition": "noncurrent long-term debt, excluding finance leases",
+        "status": "reported",
+        "source_label": "Long-term debt",
+        "label_origin": "filing row",
+        "sources": [
+          {
+            "tag": "us-gaap:LongTermDebtNoncurrent",
+            "val": 40152000000,
+            "end": "2025-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Long-term debt",
+            "source_row": "Long-term debt |  |  | 31,067 |  |  |  | 40,152 | ",
+            "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+            "status": "reported",
+            "definition": "noncurrent long-term debt, excluding finance leases"
+          },
+          {
+            "tag": "us-gaap:LongTermDebtNoncurrent",
+            "val": 40152000000,
+            "end": "2025-06-30",
+            "unit": "USD",
+            "accn": "0001193125-26-323660",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+            "source_label": "Long-term debt",
+            "source_row": "Long-term debt |  |  |  |  |  |  |  |  |  |  |  | $ | 31,067 |  |  | $ | 40,152 | ",
+            "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+            "status": "reported",
+            "definition": "noncurrent long-term debt, excluding finance leases"
+          }
+        ]
+      },
+      "total_debt_only": {
+        "val": 43151000000,
+        "tag": "calculated",
+        "unit": "USD",
+        "end": "2025-06-30",
+        "accn": "0001193125-26-323660",
+        "status": "calculated",
+        "definition": "Total current and noncurrent long-term borrowings, excluding finance leases",
+        "source_label": "Calculated: Total current and noncurrent long-term borrowings, excluding finance leases",
+        "inputs": [
+          {
+            "end": "2025-06-30",
+            "val": 40152000000,
+            "accn": "0001193125-26-323660",
+            "fy": 2026,
+            "fp": "FY",
+            "form": "10-K",
+            "filed": "2026-07-29",
+            "frame": "CY2025Q2I",
+            "tag": "us-gaap:LongTermDebtNoncurrent",
+            "unit": "USD",
+            "definition": "noncurrent long-term debt, excluding finance leases",
+            "status": "reported",
+            "source_label": "Long-term debt",
+            "label_origin": "filing row",
+            "sources": [
+              {
+                "tag": "us-gaap:LongTermDebtNoncurrent",
+                "val": 40152000000,
+                "end": "2025-06-30",
+                "unit": "USD",
+                "accn": "0001193125-26-323660",
+                "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+                "source_label": "Long-term debt",
+                "source_row": "Long-term debt |  |  | 31,067 |  |  |  | 40,152 | ",
+                "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+                "status": "reported",
+                "definition": "noncurrent long-term debt, excluding finance leases"
+              },
+              {
+                "tag": "us-gaap:LongTermDebtNoncurrent",
+                "val": 40152000000,
+                "end": "2025-06-30",
+                "unit": "USD",
+                "accn": "0001193125-26-323660",
+                "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+                "source_label": "Long-term debt",
+                "source_row": "Long-term debt |  |  |  |  |  |  |  |  |  |  |  | $ | 31,067 |  |  | $ | 40,152 | ",
+                "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+                "status": "reported",
+                "definition": "noncurrent long-term debt, excluding finance leases"
+              }
+            ]
+          },
+          {
+            "end": "2025-06-30",
+            "val": 2999000000,
+            "accn": "0001193125-26-323660",
+            "fy": 2026,
+            "fp": "FY",
+            "form": "10-K",
+            "filed": "2026-07-29",
+            "frame": "CY2025Q2I",
+            "tag": "us-gaap:LongTermDebtCurrent",
+            "unit": "USD",
+            "definition": "current portion of long-term debt, excluding finance leases",
+            "status": "reported",
+            "source_label": "Current portion of long-term debt",
+            "label_origin": "filing row",
+            "sources": [
+              {
+                "tag": "us-gaap:LongTermDebtCurrent",
+                "val": 2999000000,
+                "end": "2025-06-30",
+                "unit": "USD",
+                "accn": "0001193125-26-323660",
+                "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+                "source_label": "Current portion of long-term debt",
+                "source_row": "Current portion of long-term debt |  |  | 9,227 |  |  |  | 2,999 | ",
+                "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+                "status": "reported",
+                "definition": "current portion of long-term debt, excluding finance leases"
+              },
+              {
+                "tag": "us-gaap:LongTermDebtCurrent",
+                "val": 2999000000,
+                "end": "2025-06-30",
+                "unit": "USD",
+                "accn": "0001193125-26-323660",
+                "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+                "source_label": "Current portion of long-term debt",
+                "source_row": "Current portion of long-term debt |  |  |  |  |  |  |  |  |  |  |  |  | ( 9,227 | ) |  |  | ( 2,999 | )",
+                "context_id": "C_528a2210-872f-4ed7-b006-dd38f90dd456",
+                "status": "reported",
+                "definition": "current portion of long-term debt, excluding finance leases"
+              }
+            ]
+          }
+        ],
+        "arithmetic": "40152000000 + 2999000000 = 43151000000"
+      },
+      "total_debt_including_finance_leases": null,
+      "unavailable_reason": null
+    }
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2025-06-01",
+    "end": "2026-05-31",
+    "val": 67357000000,
+    "unit": "USD",
+    "accn": "0001193125-26-277521",
+    "context_id": "C_24317829-d237-4c29-bae3-2e46dd1ae625",
+    "filing_label": "Total revenues",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "source_row": "Total revenues |  |  | 67,357 |  |  |  | 57,399 |  |  |  | 52,961 | "
+  },
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2024-06-01",
+    "end": "2025-05-31",
+    "val": 57399000000,
+    "unit": "USD",
+    "accn": "0001193125-26-277521",
+    "context_id": "C_1b7de4cf-5b81-4b26-9d4d-739933e6cc0a",
+    "filing_label": "Total revenues",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "source_row": "Total revenues |  |  | 67,357 |  |  |  | 57,399 |  |  |  | 52,961 | "
+  },
+  {
+    "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "start": "2023-06-01",
+    "end": "2024-05-31",
+    "val": 52961000000,
+    "unit": "USD",
+    "accn": "0001193125-26-277521",
+    "context_id": "C_983be5fd-8ba3-4b35-8bc4-d5f47d3c9957",
+    "filing_label": "Total revenues",
+    "definition": "Consolidated total revenue as labelled in the income statement.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "source_row": "Total revenues |  |  | 67,357 |  |  |  | 57,399 |  |  |  | 52,961 | "
+  }
+]
